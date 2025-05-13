@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carter N. Smith</title>
-  <meta name="description" content="Carter N. Smith – Computer Engineering Student at Miami University">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ===== Top‑of‑page meta ===== -->
+  <!-- Basic SEO title/description -->
+  <title>Carter N. Smith – Embedded & Software-Hardware Bridge-Builder</title>
+  <meta name="description" content="Portfolio of Carter N. Smith, computer engineering student at Miami University focused on embedded systems, electronics, and full-stack prototyping." />
+
+  <!-- Link‑preview settings for LinkedIn, Discord, etc. -->
+  <meta property="og:title" content="Carter N. Smith – Computer Engineering Portfolio" />
+  <meta property="og:description" content="Embedded projects, coursework, and contact info for Carter N. Smith—Detroit-based computer engineering student at Miami University." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cartersmithtech.com" />
+  <meta property="og:image" content="https://cartersmithtech.com/og-preview.png" />
+
+  <!-- ================================= Fonts ================================= -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header>
+  <header role="banner">
     <h1>Carter N. Smith</h1>
   </header>
 
   <main>
-    <section id="hero">
-      <h2>Hello, I’m Carter</h2>
-      <p>Computer Engineering Student at Miami University</p>
+    <!-- ===== Hero section (quick intro) ===== -->
+    <section id="hero" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Hello, I’m Carter</h2>
+      <p>Computer Engineering student @ Miami University focused on embedded systems.</p>
       <p>
+        <!-- Open in new tab so visitors stay on the portfolio page -->
         <a href="https://github.com/carter1224" target="_blank" rel="noopener">GitHub</a> |
         <a href="https://www.linkedin.com/in/carternsmith/" target="_blank" rel="noopener">LinkedIn</a>
       </p>
     </section>
 
+    <!-- ===== About section ===== -->
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m a computer engineering student passionate about electronics, embedded systems, and building technology that bridges software and hardware. </p>
+      <p>I work with controls engineers at <strong>Complete Automation</strong> as an Electrical Engineer Intern. I enjoy experimenting with Arduinos and Raspberry Pis, connecting sensors, and writing simple code to control devices or collect data.</p>
+      <p>I am building foundational skills in embedded programming, circuit wiring, and power management.</p>
+    </section>
+
+    <!-- ===== Projects section ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/carter1224/smart-alarm-hub">Smart Alarm & Light Hub</a> – AVR-based door lock with SPI messaging.</li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact section ===== -->
+    <section id="contact">
+      <h2>Let’s Connect</h2>
+      <p>Email: <a href="mailto:carternsmith03@gmail.com">carternsmith03@gmail.com</a></p>
+      <p>Based in the Detroit metro area | Computer Engineering student at Miami University, OH</p>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Carter N. Smith</p>
+  <footer role="contentinfo">
+    &copy; 2025 Carter N. Smith
   </footer>
 </body>
 </html>
