@@ -18,18 +18,6 @@
   --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: var(--bg-dark);
-    --surface: var(--surface-dark);
-    --text: var(--text-dark);
-    --subtle: var(--subtle-dark);
-    --accent: var(--accent-dark);
-    --accent-hover: var(--accent-hover-dark);
-    --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-  }
-}
-
 html {
   scroll-behavior: smooth;
 }
